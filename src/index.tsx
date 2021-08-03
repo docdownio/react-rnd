@@ -591,6 +591,7 @@ export class Rnd extends React.PureComponent<Props, State> {
       dragAxis,
       dragGrid,
       bounds,
+      newBounds,
       enableUserSelectHack,
       cancel,
       children,
@@ -646,7 +647,7 @@ export class Rnd extends React.PureComponent<Props, State> {
         axis={dragAxisOrUndefined}
         disabled={disableDragging}
         grid={dragGrid}
-        bounds={bounds ? this.state.bounds : undefined}
+        bounds={newBounds? newBounds : bounds ? this.state.bounds : undefined}
         position={pos}
         enableUserSelectHack={enableUserSelectHack}
         cancel={cancel}
