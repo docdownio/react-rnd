@@ -1,8 +1,8 @@
 {
-  "name": "@jungroit/react-rnd",
-  "version": "10.3.5",
+  "name": "@docdown/react-rnd",
+  "version": "10.3.6",
   "description": "",
-  "title": "@jungroit/react-rnd",
+  "title": "@docdown/react-rnd",
   "main": "./lib/index.es5.js",
   "module": "./lib/index.js",
   "jsnext:main": "./lib/index.js",
@@ -31,14 +31,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jungRoit/react-rnd"
+    "url": "https://github.com/docdownio/react-rnd"
   },
   "author": "bokuweb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bokuweb/react-rnd/issues"
+    "url": "https://github.com/docdownio/react-rnd/issues"
   },
-  "homepage": "https://github.com/jungRoit/react-rnd",
+  "homepage": "https://github.com/docdownio/react-rnd",
   "devDependencies": {
     "@babel/cli": "7.14.5",
     "@babel/core": "7.14.6",
